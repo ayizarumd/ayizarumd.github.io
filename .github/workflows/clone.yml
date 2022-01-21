@@ -18,4 +18,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+            cd ../pub
             git clone git@github.com:ayizarumd/ayizarumd.github.io.git
