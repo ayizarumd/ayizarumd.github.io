@@ -21,4 +21,3 @@ jobs:
           script: |
             cd ayizarumd.github.io
             git pull
-            cp ./* ../../pub/ -f
